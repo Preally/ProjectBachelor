@@ -1,0 +1,180 @@
+
+
+
+COMPLETE METRIC 6200 SERIES, OPEN BEARING LIBRARY — SolidWorks and Step Models
+
+
+This globally parameterized, metric 6200, open series bearing library contains the following 27 models in both SolidWorks and Step formats:
+
+6200
+6201
+6202
+6203
+6204
+6205
+6206
+6207
+6208
+6209
+6210
+6211
+6212
+6213
+6214
+6215
+6216
+6217
+6218
+6219
+6220
+6221
+6222
+6224
+6226
+6228
+6230
+
+
+
+
+
+Filenames:
+
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6200 — 10mm ID × 30mm OD × 9mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6201 — 12mm ID × 32mm OD × 10mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6202 — 15mm ID × 35mm OD × 11mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6203 — 17mm ID × 40mm OD × 12mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6204 — 20mm ID × 47mm OD × 14mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6205 — 25mm ID × 52mm OD × 15mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6206 — 30mm ID × 62mm OD × 16mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6207 — 35mm ID × 72mm OD × 17mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6208 — 40mm ID × 80mm OD × 15mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6209 — 45mm ID × 85mm OD × 19mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6210 — 50mm ID × 90mm OD × 20mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6211 — 55mm ID × 100mm OD × 21mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6212 — 60mm ID × 110mm OD × 22mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6213 — 65mm ID × 120mm OD × 23mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6214 — 70mm ID × 125mm OD × 24mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6215 — 75mm ID × 130mm OD × 25mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6216 — 80mm ID × 140mm OD × 26mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6217 — 85mm ID × 150mm OD × 28mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6218 — 90mm ID × 160mm OD × 30mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6219 — 95mm ID × 170mm OD × 32mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6220 — 100mm ID × 180mm OD × 34mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6221 — 105mm ID × 190mm OD × 36mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6222 — 110mm ID × 200mm OD × 38mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6224 — 120mm ID × 215mm OD × 40mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6226 — 130mm ID × 230mm OD × 40mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6228 — 140mm ID × 250mm OD × 42mm W
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —  6230 — 150mm ID × 270mm OD × 45mm W
+
+
+
+
+
+
+
+========
+CONTENTS
+========
+
+Two copies of the template file are furnished:
+
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —     template.SLDPRT (I advise never to operate upon this file, but instead to make copies of it, and to operate strictly upon the copies)
+p  BEARING, SINGLE-ROW RADIAL, OPEN, METRIC 6200 SERIES  —     template - Copy.SLDPRT (this is intended for backup)
+
+
+A separate copy of the internalized parameters is included in the "_params INTEGRAL*.txt" text file, along with the actual working copy of the global parameters (used by all the models together), which are found in "_params GLOBAL*.txt."
+
+These files may be used for external reference, or for modifying equations outside of the CAD environment (as much of this work was performed). I use a high end text editor (NoteTab Professional) to perform external work — often with its global replace tool. As SolidWorks lacks the generic capacity, an oft-repeated task is to alpha-numerically organize the parameters as you will find them. This capacity alone is indispensable to efficient work.
+
+Developers should regularly maintain current working copies of these files, prior to any such external operations, particularly as SolidWorks' creation or modification of dimensions or features will modify, increase, or decrease the number of features or dimensions your equations are aliased to. As the system of equations is built and revised as your further model may be developed therefore, content is regularly exported and imported back and forth between SolidWorks and the text editor; and the first phase of any external operations (if any work affecting equations has been performed in SolidWorks) is always, always, always to first export your equations from SolidWorks to the external files which need to reflect the entire current state of your equations so that re-imported work will not corrupt the features and dimensions your equations are aliased to. The consequence of failing to perform this initial export therefore is to drop aliased dimensions or features... which in turn means that your sketches or features will no longer respond to the equations you originally aliased them to.
+
+In regard to the state of your equations within SolidWorks then, you should further understand that external work on the freshly exported SolidWorks state may freely, globally _rename_ integral and global variables, constants, or equations as you see fit, if and only if you never touch the sketch or feature _addresses_ (aliases) which associate your equations with SolidWorks features and dimensions in doing so. The address links must remain unaltered outside of SolidWorks, because they serve as aliases to which your mutable equation values are assigned. Once external work on equation reference names and the equations themselves (only) are re-imported back into SolidWorks, these externally modified features will readily function as intended, because they are re-associated to your model by way of the un-modified feature and dimension addresses (aliases).
+
+Your revised sketch dimension equation _name_ for example, will successfully re-assign to your sketch when you re-import your (proper) modifications... replacing the former system of equations with your latest revisions. This is important to understand, because a substantial part of external work is ever-more-appropriately renaming your equations.
+
+To properly relink external work to your model after finishing a phase of external work, return to SolidWorks' Equation Manager (which you should leave open the whole while); delete all of the equations from it; first import the integral equations together with referencing dimensions or features as an UN-LINKED body of "equations"; then import the global parameters as a LINKED body of equations. So long as your sketch dimension and feature addresses are unaltered, new values or equation names will properly re-associate with them, by way of the unaltered addresses.
+
+A quick note on efficiently deleting your equations from SolidWorks: As the list iterators which serve SolidWorks' selection and deletion capacities are faulty, you cannot simply select all the equations in the left-hand column and delete them as you would regularly expect, because the faulty iterators will always errantly leave one equation. Thus you will regularly be annoyed with the otherwise redundant but ever-persistent obligation to re-select that last remaining equation yet again, that you must yet again initiate its deletion.
+
+I have found thru hundreds of iterations and trials that if you instead click into the top left-hand column alongside the top subtitles (of all strange places), and drag all the way to the bottom of that column (of all further strange places)... that if you _then_ delete the equations (selected in this bizarre manner)... that it IS (somehow) possible to get rid of all of them at once. Because you will do this so often if you develop further models from these, this is a valuable tip.
+
+
+As said, the "_params GLOBAL*.txt" text file is the actual, active global parameters file. I always store it to the same directory as the model library. Owing to further weaknesses in file relocation support, and because transmission obviously results in different explicit paths between the models and global params file (even though they may remain in the same _relative_ directory), SolidWorks algorithms pay you the equally unnecessary favor of losing the global parameters from every moved model (even though the external parameters file still accompanies the models as intended). Accordingly, SolidWorks will prompt you for the same relative location of this same externalized global parameters file, each and every first time you open any of the (moved) models in a different location.
+
+Resolution of this issue may be redundant to usual coding standards, but it is simple: When prompted to "find" your parameters again, elect to browse for the file yourself. The responding browse-for-file dialog _should_ initiate the responding search from the parent directory; and (knowing the filename begins with "_params GLOBAL*," with the initial underscore placing it near the top of your directory) it should be easy enough to perform the otherwise unnecessary task of relinking your global params.
+
+Perhaps I should explain why my usage of the terms global and integral (in this case, meaning "private") differs from that of SolidWorks — where your integral equations are wrongly called "global." They are not global in the technical sense of global; they are instead "private" to the model, because the model alone can access them. Thus, their terminology is wrong (and therefore misleading), because instead, only an external (and therefore necessarily _linked_) body of "equations" can truly be global (accessible to any further object which may need to access them). Thus in rectified jargon, your integral equations are actually _private_ (rather than "global"); and only external, linked equations can actually be _global_. Moreover, as the obvious intentions of these distinctions are a) to allow only the private model to be governed by its inherently unique private parameters and calculations; and, b) to allow potentially many models to be governed by public, global parameters and calculations... then it is exceedingly ignorant and unmindful of the respective implications and ramifications to mistakenly refer to the private features as "_global_." No worse misuse of vital terminology can be committed.
+
+The (linked, external) global equations of these models therefore may correctly be understood to govern all the models which are linked to them. Unfortunately, SolidWorks unnecessarily limits what you can do by linking external equations, not only because SolidWorks provides no means whatsoever for manipulating strings, and neither any means for linking manipulated strings to features, but equally importantly, because SolidWorks only allows you to link a single external equations file to your models.
+
+Nonetheless, if you download a subset of the library, you should also understand that you must also have the global parameters file — and that (for these reasons) it is most advisable to store it to the same directory as your (like) models (the respective series nomenclature intentionally embedded in the filenames will distinguish them as intended). I would also be certain to grab a copy of this _READ ME*.txt (instructions), as a quick read should resolve just about any possible issue (which is also mentioned in the About file).
+
+
+The About file is also included for copyright purposes, and for corroborating what you are supposed to have (or may be missing) here.
+
+
+
+======================
+THE THREE BASIC INPUTS
+======================
+
+Because this library features an open type bearing (with its internals exposed), these models represent all bearing features. Because all features and dimensions are calculated by integral equations and from external, globally-applied parameters, you may generate like models in seconds by modifying any of just three integral (internal, private) equation values (or you may alter the entire library by modifying global equation values). Your new model is then completed by revising bearing indicia and font sizes (the latter of which are recalculated, but not automatically assigned — owing also to the weak parameterization support in SolidWorks). The three inputs (indicated by their _i__ prefix) are located at the top of each model's equations as listed in your Equations Manager. To access your integral equations, right-click Equations in your Features Manager, and select Manage Equations from the resultant popup. The global equations, conversely, are best managed by an external text editor. These are your principal model design parameters:
+
+_i__BORE
+_i__OUTSIDE_DIAMETER
+_i__WIDTH
+
+
+
+================================
+CREATING FURTHER MODEL INSTANCES
+================================
+
+Thus to create a further bearing model from any of the SLDPRT files, you may:
+
+1. 	Rename a copy of the template file (or any other model file) to reflect the dimensions and normative indicia of your intended model (I drag-and-drop a source file to the same directory to get the copy; then revise the indicia accordingly).
+
+2.	Next, open that file in SolidWorks; right-click "Equations" in its feature manager; and select "Manage equations" from the responding popup;
+
+I advise, before working on your equations, to first set them (at the bottom of the Equations Manager interface) NOT to automatically update (the model). This allows you to work much more expeditiously, because it avoids having to wait for each revision to recalculate AND be applied to the model. With the option disabled, the model will still automatically update when you close the Equations Manager; and likewise, you may manually update your model from the equations interface by clicking the rebuild button at the bottom of the equations interface.
+
+3.	Now, assign your new model's required values to _i__BORE, _i__OUTSIDE_DIAMETER, and/or _i__WIDTH. If you have wisely renamed your new model according to the original library pattern, you will not need a reference to provide these values, because they will be displayed in the title bar of your SolidWorks window while you are working on the model.
+
+4.	Now, OK-close the equations interface (the model should automatically rebuild); save your file; and except for revising your indicia (as follows), you have your new bearing.
+
+
+
+================================================
+REVISING INDICIA, AND RE-CALCULATED FONT HEIGHTS
+================================================
+
+To apply appropriate indicia to your new model, before closing Equations Manager, first find and note the value of your recalculated font height dimension near the top of your equations list:
+
+_user_applied_BEARING_INDICIA_FONT_HEIGHT_in_units
+
+
+Owing to feeble parameterization support, you will have to manually assign this values to the font properties for each of your two indicia labels, together with your new bearing's indicia — as the following instructions indicate. In this particular bearing series, you have only 2 labels to update; and they are found in the sketches for the two Cut-Extrudes within your INDICIA folder (in your Feature Manager). You will input your revised indicia text and potentially revised font heights to both opposing labels. Thus, you will cycle thru instructions 5-10 below, twice — each time for the opposing side of the bearing:
+
+5.	To update your new bearing's indicia, expand the bottom INDICIA folder of your model in feature manager;
+
+6.	expand both of the indicia extrudes to find both of the sketches containing the indicia text for the opposing labels;
+
+7.	open the first of these sketches; zoom in, and double-click the text in that sketch to open the text feature in your feature manager;
+
+8.	input the desired text indicia into the text field;
+
+9.	now, to assign or to verify font height, click the Font button below, and assign the value of _user_applied_BEARING_INDICIA_FONT_HEIGHT_in_units to the font height field (which must remain toggled to "units");
+
+10.	OK-close the font dialog and sketch (the extrude should automatically rebuild), and apply the same steps 5-10 to the alternate side's label.
+
+
+
+Obvious further relationships in the remaining formulae make it possible to further customize these files to generate representations of further, like, or similar bearing formats. When converting a model from inch to millimeter or vice versa, click Options, and in the Document properties tab, select your units and the number of digits you want them expressed in. You might loose your indicia momentarily if the revised dimension units preclude the application's limited capacities to draw them; but after updating you dimensions in the revised units, and further updating your font heights (as instructed above), your indicia should return.
+
+
+
+(C)  Copyright 20240307 by mike montagne. Free to use for CAD purposes, not to re-publish or redistribute in any form.
+
+

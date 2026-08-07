@@ -1,0 +1,68 @@
+
+
+
+COMPLETE METRIC 6200 SERIES, OPEN BEARING LIBRARY — SolidWorks and Step Models
+
+
+This globally parameterized, metric 6200, open series bearing library contains the following 27 models in both SolidWorks and Step formats:
+
+6200
+6201
+6202
+6203
+6204
+6205
+6206
+6207
+6208
+6209
+6210
+6211
+6212
+6213
+6214
+6215
+6216
+6217
+6218
+6219
+6220
+6221
+6222
+6224
+6226
+6228
+6230
+
+
+Global parameterization enables you to generate like bearings in seconds. Download and see the _READ ME*.txt text file for instructions. Store models, global and integral parameters files, and _READ ME*.txt to the same directory, and re-link each model to the global parameters when prompted to do so (the first time you open any formerly linked model in SolidWorks).
+
+Understand that if you download a subset of the library, you must also have the global parameters file (_params GLOBAL*.txt).
+
+
+
+(C)  Copyright 20240307 by mike montagne. Free to use for CAD purposes, not to re-publish or redistribute in any form.
+
+
+
+
+
+Tags:
+
+#6200,#6201,#6202,#6203,#6204,#6205,#6206,#6207,#6208
+#6209,#6210,#6211,#6212,#6213,#6214,#6215,#6216,#6217
+#6218,#6219,#6220,#6221,#6222,#6224,#6226,#6228,#6230
+
++
+
+#metric 6200 bearing series,#single-row radial bearing
+
+#.sldasm,#.sldprt,#solidworks,#.step
+
+
+
+
+
+
+
+
